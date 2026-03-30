@@ -1,0 +1,32 @@
+# Environment
+.env
+
+# Downloaded repositories (Phase 1 clones) — keep folder structure via .gitkeep
+output/repos/*
+!output/repos/.gitkeep
+
+# Overnight batch files and combined dataset (large, regeneratable)
+output/overnight/
+
+# Internal documentation
+doc/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

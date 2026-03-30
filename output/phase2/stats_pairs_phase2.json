@@ -1,0 +1,27 @@
+{
+  "total": 150,
+  "scored": 135,
+  "skipped_no_clone": 9,
+  "skipped_no_code": 6,
+  "skipped_too_large": 0,
+  "sparse_scored": 10,
+  "levels": {
+    "STRONG": 4,
+    "MEDIUM": 55,
+    "WEAK": 76
+  },
+  "signals_distribution": {
+    "is_official": 69,
+    "mentioned_in_paper": 53,
+    "mentioned_in_github": 101,
+    "readme_has_arxiv_id": 97,
+    "readme_has_title": 103,
+    "readme_has_title_keywords": 112,
+    "task_consistency": 61,
+    "repo_name_overlaps_title": 38,
+    "readme_mentions_method": 34,
+    "dataset_keyword_overlap": 13,
+    "repo_has_structure": 35,
+    "repo_name_matches_method": 2
+  }
+}

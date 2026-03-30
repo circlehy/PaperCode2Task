@@ -1,0 +1,27 @@
+[
+  {
+    "index": 0,
+    "success": true,
+    "abstract_len": 1148
+  },
+  {
+    "index": 1,
+    "success": true,
+    "abstract_len": 708
+  },
+  {
+    "index": 2,
+    "success": false,
+    "reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  {
+    "index": 3,
+    "success": true,
+    "abstract_len": 998
+  },
+  {
+    "index": 4,
+    "success": true,
+    "abstract_len": 1752
+  }
+]

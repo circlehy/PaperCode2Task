@@ -1,0 +1,346 @@
+# Detection patterns config
+# Edit these without touching pipeline logic
+
+# Files that contain runnable code — used for sparse check and component detection
+executable_code_extensions:
+  - .py
+  - .ipynb
+  - .sh
+  - .R
+  - .Rmd
+  - .jl       # Julia
+  - .cpp
+  - .cu
+  - .c
+  - .js
+  - .ts
+  - .m        # MATLAB
+  - .scala
+  - .java
+  - .go
+  - .lua
+
+# Non-executable files — presence of only these → repo_no_executable_code
+document_extensions:
+  - .tex
+  - .bib
+  - .pdf
+  - .md
+  - .rst
+  - .txt
+  - .docx
+
+# Config-like files — not counted as executable code on their own
+config_like_extensions:
+  - .yaml
+  - .yml
+  - .json
+  - .toml
+  - .cfg
+  - .ini
+
+component_patterns:
+  model:
+    filenames: [model.py, models.py, network.py, net.py, architecture.py, arch.py]
+    directories: [models, network]
+    content_keywords: [nn.Module, forward, torch.nn, tf.keras, keras.Model]
+  loss:
+    filenames: [loss.py, losses.py, criterion.py, objectives.py]
+    directories: [losses]
+    content_keywords: [loss, criterion, backward, F.cross_entropy, nn.MSELoss]
+  eval:
+    filenames: [eval.py, evaluate.py, metrics.py, test.py, benchmark.py, score.py]
+    directories: [eval, evaluation]
+    content_keywords: [accuracy, metric, evaluate, benchmark, score]
+
+experiment_patterns:
+  metric_keywords:
+    - accuracy
+    - BLEU
+    - bleu
+    - F1
+    - f1
+    - PSNR
+    - psnr
+    - SSIM
+    - ssim
+    - loss
+    - metric
+    - recall
+    - precision
+    - AUC
+    - mAP
+    - perplexity
+  config_extensions: [.yaml, .yml, .json, .cfg, .ini, .toml]
+  config_directories: [configs, config, cfg, settings]
+
+# Category C — dataset keyword overlap signal
+# Check if README mentions any of these known dataset names
+# Matched case-insensitively against README text
+dataset_keywords:
+  # vision
+  - ImageNet
+  - COCO
+  - CIFAR
+  - CIFAR-10
+  - CIFAR-100
+  - MNIST
+  - CelebA
+  - LSUN
+  - VOC
+  - ADE20K
+  - Cityscapes
+  - KITTI
+  - Places365
+  - STL-10
+  - Flickr30k
+  - MS-COCO
+  # NLP
+  - SQuAD
+  - GLUE
+  - SuperGLUE
+  - WikiText
+  - Penn Treebank
+  - CoNLL
+  - WMT
+  - IWSLT
+  - SST
+  - SNLI
+  - MultiNLI
+  - RACE
+  - BooksCorpus
+  - Common Crawl
+  - C4
+  - OpenWebText
+  # speech / audio
+  - LibriSpeech
+  - CommonVoice
+  - VoxCeleb
+  - AudioSet
+  # graphs / molecular
+  - OGB
+  - TUDataset
+  - QM9
+  - ZINC
+  # general / multi-domain
+  - OpenImages
+  - Kinetics
+  - Something-Something
+  - ActivityNet
+  - nuScenes
+
+# Category C — repo structure pattern signal
+# A repo matching >= 2 of these top-level directory names is considered
+# to have the expected ML project structure (train/eval/config separation)
+structure_pattern_directories:
+  - train
+  - training
+  - test
+  - eval
+  - evaluation
+  - inference
+  - configs
+  - config
+  - cfg
+  - scripts
+  - src
+  - models
+  - experiments
+  - checkpoints
+  - utils
+  - data
+  - datasets
+
+repo_thresholds:
+  sparse_file_count: 3       # fewer than this → repo_too_sparse
+  large_size_mb: 500         # larger than this → repo_too_large
+  readme_filenames: [README.md, README.rst, README.txt, README, readme.md]
+
+stopwords:
+  - a
+  - an
+  - the
+  - using
+  - with
+  - for
+  - on
+  - in
+  - of
+  - and
+  - or
+  - to
+  - is
+  - are
+  - via
+  - based
+  - towards
+  - toward
+  - from
+  - its
+  - by
+  - at
+  - as
+  - be
+  - new
+  - novel
+  - efficient
+  - effective
+  - robust
+  - deep
+  - fast
+  - better
+  - improved
+  - learning
+
+# Keywords for Level 1 title-based paper semantics extraction
+title_task_keywords:
+  # vision
+  - image classification
+  - object detection
+  - semantic segmentation
+  - instance segmentation
+  - depth estimation
+  - pose estimation
+  - action recognition
+  - image generation
+  - video generation
+  - image captioning
+  - visual question answering
+  - super-resolution
+  - inpainting
+  - denoising
+  - style transfer
+  - image-to-image
+  - text-to-image
+  # NLP
+  - machine translation
+  - text generation
+  - language modeling
+  - sentiment analysis
+  - named entity recognition
+  - relation extraction
+  - text classification
+  - question answering
+  - summarization
+  - coreference resolution
+  - semantic parsing
+  - reading comprehension
+  - textual entailment
+  - dialogue
+  - speech recognition
+  - text-to-speech
+  # general ML
+  - classification
+  - detection
+  - segmentation
+  - recognition
+  - generation
+  - translation
+  - captioning
+  - retrieval
+  - tracking
+  - prediction
+  - forecasting
+  - synthesis
+  - reconstruction
+  - compression
+  - embedding
+  - clustering
+  - parsing
+  - grounding
+  - reasoning
+  - planning
+  - navigation
+  - recommendation
+  - matching
+  - alignment
+  - adaptation
+  - distillation
+  - pruning
+  - debiasing
+  - probing
+  - few-shot learning
+  - zero-shot learning
+  - online learning
+  - continual learning
+  - federated learning
+  - multi-task learning
+  - transfer learning
+  - point cloud
+
+title_method_keywords:
+  # architectures
+  - transformer
+  - GAN
+  - diffusion
+  - VAE
+  - autoencoder
+  - U-Net
+  - UNet
+  - ResNet
+  - VGG
+  - YOLO
+  - ViT
+  - CLIP
+  - BERT
+  - GPT
+  - CNN
+  - LSTM
+  - RNN
+  - GNN
+  - graph neural network
+  - capsule
+  - mixture of experts
+  # training paradigms
+  - contrastive
+  - self-supervised
+  - semi-supervised
+  - meta-learning
+  - few-shot
+  - zero-shot
+  - finetuning
+  - fine-tuning
+  - prompting
+  - in-context learning
+  - reinforcement learning
+  - actor-critic
+  - policy gradient
+  - knowledge distillation
+  - quantization
+  # mechanisms / techniques
+  - attention
+  - self-attention
+  - cross-attention
+  - masked language model
+  - autoregressive
+  - encoder-decoder
+  - normalizing flow
+  - flow matching
+  - score matching
+  - variational
+  - graph convolutional
+
+# Fixed domain/modality terms for domain_hint extraction
+# Checked against title tokens — first match wins
+domain_terms:
+  - image
+  - video
+  - speech
+  - audio
+  - text
+  - language
+  - graph
+  - code
+  - table
+  - tabular
+  - molecule
+  - protein
+  - medical
+  - clinical
+  - document
+  - scene
+  - multimodal
+  - visual
+  - time series
+  - point cloud
+  - 3d

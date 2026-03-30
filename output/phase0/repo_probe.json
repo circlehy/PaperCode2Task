@@ -1,0 +1,98 @@
+[
+  {
+    "index": 0,
+    "success": true,
+    "total_files": 34,
+    "code_file_count": 1,
+    "has_readme": true,
+    "is_sparse": true,
+    "top_dirs": [
+      ".git"
+    ],
+    "extension_counts": {
+      ".sample": 14,
+      ".gif": 1,
+      ".md": 1,
+      ".py": 1,
+      ".idx": 1,
+      ".rev": 1,
+      ".pack": 1
+    }
+  },
+  {
+    "index": 1,
+    "success": true,
+    "total_files": 50,
+    "code_file_count": 0,
+    "has_readme": false,
+    "is_sparse": true,
+    "top_dirs": [
+      ".git",
+      "graphics",
+      "models",
+      "results"
+    ],
+    "extension_counts": {
+      ".sample": 14,
+      ".pdf": 6,
+      ".tex": 5,
+      ".rds": 4,
+      ".Rproj": 1,
+      ".bib": 1,
+      ".Rmd": 1,
+      ".idx": 1
+    }
+  },
+  {
+    "index": 2,
+    "success": true,
+    "total_files": 121,
+    "code_file_count": 70,
+    "has_readme": true,
+    "is_sparse": false,
+    "top_dirs": [
+      ".git",
+      "config",
+      "experiments",
+      "scripts",
+      "translate"
+    ],
+    "extension_counts": {
+      ".py": 51,
+      ".sample": 14,
+      ".perl": 13,
+      ".sh": 12,
+      ".yaml": 7,
+      ".md": 1,
+      ".jar": 1,
+      ".pack": 1
+    }
+  },
+  {
+    "index": 3,
+    "success": true,
+    "total_files": 42,
+    "code_file_count": 7,
+    "has_readme": true,
+    "is_sparse": false,
+    "top_dirs": [
+      ".git",
+      "miscc"
+    ],
+    "extension_counts": {
+      ".sample": 14,
+      ".py": 6,
+      ".cpu": 1,
+      ".ipynb": 1,
+      ".gpu": 1,
+      ".txt": 1,
+      ".md": 1,
+      ".ttf": 1
+    }
+  },
+  {
+    "index": 4,
+    "success": false,
+    "reason": "unknown"
+  }
+]

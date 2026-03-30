@@ -1,0 +1,25 @@
+{
+  "total": 150,
+  "llm_called": 47,
+  "cache_hits": 88,
+  "llm_errors": 0,
+  "skipped_not_scored": 15,
+  "skipped_out_of_range": 0,
+  "level_changes": 24,
+  "contradictions": 14,
+  "llm_judgments": {
+    "STRONG": 88,
+    "MEDIUM": 14,
+    "WEAK": 33
+  },
+  "levels": {
+    "STRONG": 21,
+    "MEDIUM": 45,
+    "WEAK": 69
+  },
+  "confidence": {
+    "HIGH": 105,
+    "MEDIUM": 6,
+    "LOW": 24
+  }
+}

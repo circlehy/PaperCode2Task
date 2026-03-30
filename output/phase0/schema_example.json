@@ -1,0 +1,29 @@
+{
+  "paper_id": "test_001",
+  "paper_title": "Test Paper",
+  "repo_url": "https://github.com/example/repo",
+  "is_official": true,
+  "mentioned_in_paper": null,
+  "paper_fetch_success": null,
+  "paper_fetch_error": null,
+  "paper_semantics": {
+    "task_hint": "image classification",
+    "method_hint": "CNN",
+    "domain_hint": "computer vision",
+    "abstract": null,
+    "keywords": [],
+    "source": "pwc_metadata"
+  },
+  "clone_success": null,
+  "clone_error_type": null,
+  "repo_too_large": false,
+  "repo_size_mb": null,
+  "repo_too_sparse": false,
+  "repo_file_count": null,
+  "repo_has_readme": false,
+  "alignment": null,
+  "component_signals": null,
+  "experiment_signals": null,
+  "readiness": null,
+  "supported_tasks": []
+}

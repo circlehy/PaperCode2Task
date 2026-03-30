@@ -1,0 +1,43 @@
+{
+  "total": 150,
+  "processed": 125,
+  "skipped_no_clone": 9,
+  "skipped_no_code": 6,
+  "sparse_passthrough": 10,
+  "component": {
+    "model": {
+      "HIGH": 44,
+      "MEDIUM": 39,
+      "LOW": 7,
+      "none": 35
+    },
+    "loss": {
+      "HIGH": 18,
+      "MEDIUM": 52,
+      "LOW": 12,
+      "none": 43
+    },
+    "eval": {
+      "HIGH": 33,
+      "MEDIUM": 68,
+      "LOW": 2,
+      "none": 22
+    }
+  },
+  "experiment": {
+    "has_eval_script": 28,
+    "has_config": 16,
+    "has_metrics": 65
+  },
+  "readiness": {
+    "HIGH": 39,
+    "MEDIUM": 33,
+    "LOW": 53
+  },
+  "tasks": {
+    "missing_component": 63,
+    "experiment_repair": 1,
+    "both": 9,
+    "none": 52
+  }
+}

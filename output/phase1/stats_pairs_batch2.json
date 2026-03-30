@@ -1,0 +1,13 @@
+{
+  "total": 50,
+  "paper_fetch_ok": 48,
+  "clone_ok": 47,
+  "clone_failed": 2,
+  "subtree_url": 0,
+  "too_large": 1,
+  "no_executable_code": 3,
+  "too_sparse": 0,
+  "clone_errors": {
+    "not_found": 2
+  }
+}

@@ -1,0 +1,3955 @@
+{
+  "score_distribution": {
+    "all": {
+      "0.00-0.05": 27,
+      "0.05-0.10": 38,
+      "0.10-0.15": 198,
+      "0.15-0.20": 0,
+      "0.20-0.25": 230,
+      "0.25-0.30": 416,
+      "0.30-0.35": 67,
+      "0.35-0.40": 0,
+      "0.40-0.45": 75,
+      "0.45-0.50": 162,
+      "0.50-0.55": 127,
+      "0.55-0.60": 372,
+      "0.60-0.65": 0,
+      "0.65-0.70": 466,
+      "0.70-0.75": 0,
+      "0.75-0.80": 201,
+      "0.80-0.85": 19,
+      "0.85-0.90": 9,
+      "0.90-0.95": 2,
+      "0.95-1.00": 0
+    },
+    "official": {
+      "0.00-0.05": 0,
+      "0.05-0.10": 0,
+      "0.10-0.15": 0,
+      "0.15-0.20": 0,
+      "0.20-0.25": 7,
+      "0.25-0.30": 19,
+      "0.30-0.35": 24,
+      "0.35-0.40": 0,
+      "0.40-0.45": 25,
+      "0.45-0.50": 50,
+      "0.50-0.55": 49,
+      "0.55-0.60": 342,
+      "0.60-0.65": 0,
+      "0.65-0.70": 462,
+      "0.70-0.75": 0,
+      "0.75-0.80": 200,
+      "0.80-0.85": 19,
+      "0.85-0.90": 9,
+      "0.90-0.95": 2,
+      "0.95-1.00": 0
+    },
+    "non_official": {
+      "0.00-0.05": 27,
+      "0.05-0.10": 38,
+      "0.10-0.15": 198,
+      "0.15-0.20": 0,
+      "0.20-0.25": 223,
+      "0.25-0.30": 397,
+      "0.30-0.35": 43,
+      "0.35-0.40": 0,
+      "0.40-0.45": 50,
+      "0.45-0.50": 112,
+      "0.50-0.55": 78,
+      "0.55-0.60": 30,
+      "0.60-0.65": 0,
+      "0.65-0.70": 4,
+      "0.70-0.75": 0,
+      "0.75-0.80": 1,
+      "0.80-0.85": 0,
+      "0.85-0.90": 0,
+      "0.90-0.95": 0,
+      "0.95-1.00": 0
+    }
+  },
+  "nonofficial_max_score": 0.75,
+  "nonofficial_gap_to_medium": -0.3,
+  "sensitivity": [
+    {
+      "strong_t": 0.6,
+      "medium_t": 0.35,
+      "STRONG": 921,
+      "MEDIUM": 579,
+      "WEAK": 909
+    },
+    {
+      "strong_t": 0.6,
+      "medium_t": 0.4,
+      "STRONG": 921,
+      "MEDIUM": 512,
+      "WEAK": 976
+    },
+    {
+      "strong_t": 0.6,
+      "medium_t": 0.45,
+      "STRONG": 921,
+      "MEDIUM": 437,
+      "WEAK": 1051
+    },
+    {
+      "strong_t": 0.6,
+      "medium_t": 0.5,
+      "STRONG": 921,
+      "MEDIUM": 275,
+      "WEAK": 1213
+    },
+    {
+      "strong_t": 0.65,
+      "medium_t": 0.35,
+      "STRONG": 697,
+      "MEDIUM": 803,
+      "WEAK": 909
+    },
+    {
+      "strong_t": 0.65,
+      "medium_t": 0.4,
+      "STRONG": 697,
+      "MEDIUM": 736,
+      "WEAK": 976
+    },
+    {
+      "strong_t": 0.65,
+      "medium_t": 0.45,
+      "STRONG": 697,
+      "MEDIUM": 661,
+      "WEAK": 1051
+    },
+    {
+      "strong_t": 0.65,
+      "medium_t": 0.5,
+      "STRONG": 697,
+      "MEDIUM": 499,
+      "WEAK": 1213
+    },
+    {
+      "strong_t": 0.7,
+      "medium_t": 0.35,
+      "STRONG": 483,
+      "MEDIUM": 1017,
+      "WEAK": 909
+    },
+    {
+      "strong_t": 0.7,
+      "medium_t": 0.4,
+      "STRONG": 483,
+      "MEDIUM": 950,
+      "WEAK": 976
+    },
+    {
+      "strong_t": 0.7,
+      "medium_t": 0.45,
+      "STRONG": 483,
+      "MEDIUM": 875,
+      "WEAK": 1051
+    },
+    {
+      "strong_t": 0.7,
+      "medium_t": 0.5,
+      "STRONG": 483,
+      "MEDIUM": 713,
+      "WEAK": 1213
+    },
+    {
+      "strong_t": 0.75,
+      "medium_t": 0.35,
+      "STRONG": 231,
+      "MEDIUM": 1269,
+      "WEAK": 909
+    },
+    {
+      "strong_t": 0.75,
+      "medium_t": 0.4,
+      "STRONG": 231,
+      "MEDIUM": 1202,
+      "WEAK": 976
+    },
+    {
+      "strong_t": 0.75,
+      "medium_t": 0.45,
+      "STRONG": 231,
+      "MEDIUM": 1127,
+      "WEAK": 1051
+    },
+    {
+      "strong_t": 0.75,
+      "medium_t": 0.5,
+      "STRONG": 231,
+      "MEDIUM": 965,
+      "WEAK": 1213
+    },
+    {
+      "strong_t": 0.8,
+      "medium_t": 0.35,
+      "STRONG": 30,
+      "MEDIUM": 1470,
+      "WEAK": 909
+    },
+    {
+      "strong_t": 0.8,
+      "medium_t": 0.4,
+      "STRONG": 30,
+      "MEDIUM": 1403,
+      "WEAK": 976
+    },
+    {
+      "strong_t": 0.8,
+      "medium_t": 0.45,
+      "STRONG": 30,
+      "MEDIUM": 1328,
+      "WEAK": 1051
+    },
+    {
+      "strong_t": 0.8,
+      "medium_t": 0.5,
+      "STRONG": 30,
+      "MEDIUM": 1166,
+      "WEAK": 1213
+    }
+  ],
+  "borderline_strong_count": 201,
+  "borderline_medium_count": 364,
+  "llm_level_changes": 415,
+  "llm_disagreements": [
+    {
+      "title": "Why are Visually-Grounded Language Models Bad at Image Class",
+      "official": true,
+      "pre_llm_score": 0.7,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides the PyTorch source code for the methods discussed in the"
+    },
+    {
+      "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly supports the paper's method, detailing the use of QLoR"
+    },
+    {
+      "title": "On the limits of cross-domain generalization in automated X-",
+      "official": true,
+      "pre_llm_score": 0.7,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository mentions that it is related to the paper and provides a link to a"
+    },
+    {
+      "title": "One-shot World Models Using a Transformer Trained on a Synth",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of OSWM and provides train"
+    },
+    {
+      "title": "Sample Condensation in Online Continual Learning",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements OLCGM, the proposed replay-based continual learning st"
+    },
+    {
+      "title": "Levenshtein Training for Word-level Quality Estimation",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is designed to reproduce results from t"
+    },
+    {
+      "title": "Any-to-Any Style Transfer: Making Picasso and Da Vinci Colla",
+      "official": true,
+      "pre_llm_score": 0.7,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions combining Segment Anything with style transfe"
+    },
+    {
+      "title": "On Sparsifying Encoder Outputs in Sequence-to-Sequence Model",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the paper 'On Sparsifying Encoder Outputs in "
+    },
+    {
+      "title": "Kannada-MNIST: A new handwritten digits dataset for the Kann",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides the Kannada-MNIST dataset and mentions its use in a Kagg"
+    },
+    {
+      "title": "UUKG: Unified Urban Knowledge Graph Dataset for Urban Spatio",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a unified urban knowledge graph dataset specifically des"
+    },
+    {
+      "title": "A Strong Gravitational Lens Is Worth a Thousand Dark Matter ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository 'paltax' is specifically designed for conducting simulation-based"
+    },
+    {
+      "title": "A Feasibility Study on Image Inpainting for Non-cleft Lip Ge",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes a deep learning-based image inpainting metho"
+    },
+    {
+      "title": "An Adaptive and Altruistic PSO-based Deep Feature Selection ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is explicitly named after the proposed method AAPSO and focuses o"
+    },
+    {
+      "title": "MiNet: Mixed Interest Network for Cross-Domain Click-Through",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements the Mixed Interest Network (MiNet) for cros"
+    },
+    {
+      "title": "Self-Calibrated Efficient Transformer for Lightweight Super-",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements the Self-Calibrated Efficient Transformer ("
+    },
+    {
+      "title": "Improving Nighttime Driving-Scene Segmentation via Dual Imag",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository mentions image-adaptive filtering techniques related to the segme"
+    },
+    {
+      "title": "Model Patching: Closing the Subgroup Performance Gap with Da",
+      "official": true,
+      "pre_llm_score": 0.7,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of the model patching fra"
+    },
+    {
+      "title": "Exploring the Determinants of Pedestrian Crash Severity Usin",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements an AutoML approach for analyzing crash severity data, "
+    },
+    {
+      "title": "Ensemble Kalman Methods: A Mean Field Perspective",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains code for Ensemble Kalman methods and filtering schemes e"
+    },
+    {
+      "title": "Towards Cross-Tokenizer Distillation: the Universal Logit Di",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions support for cross-tokenizer knowledge distill"
+    },
+    {
+      "title": "BRSR-OpGAN: Blind Radar Signal Restoration using Operational",
+      "official": true,
+      "pre_llm_score": 0.7,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains the official implementation of BRSR-OpGAN, which directl"
+    },
+    {
+      "title": "An End-to-End Architecture for Keyword Spotting and Voice Ac",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a reference implementation of the proposed single neural"
+    },
+    {
+      "title": "Using Speech Synthesis to Train End-to-End Spoken Language U",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains PyTorch code specifically for training end-to-end SLU mo"
+    },
+    {
+      "title": "Deep Spatial-angular Regularization for Compressive Light Fi",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is a PyTorch implementation of the paper and"
+    },
+    {
+      "title": "FaceX: Understanding Face Attribute Classifiers through Summ",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes FaceX as a framework for analyzing and expla"
+    },
+    {
+      "title": "Visual Analytics for Understanding Draco's Knowledge Base",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes a web-based Visual Analytics approach that a"
+    },
+    {
+      "title": "Echoes from Alexandria: A Large Resource for Multilingual Bo",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains code specifically for the multilingual book summarizatio"
+    },
+    {
+      "title": "Aligning Query Representation with Rewritten Query and Relev",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides detailed instructions for training the QRACDR model, whi"
+    },
+    {
+      "title": "Global Robustness Evaluation of Deep Neural Networks with Pr",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it implements the method for global robust"
+    },
+    {
+      "title": "A 3D Reactive Navigation Algorithm for Mobile Robots by Usin",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions a 'Reactive Navigation Framework for Mobile R"
+    },
+    {
+      "title": "EESEN: End-to-End Speech Recognition using Deep RNN Models a",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of an end-to-end ASR syst"
+    },
+    {
+      "title": "WRENCH: A Comprehensive Benchmark for Weak Supervision",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a benchmark platform, WRENCH, which aligns with the pape"
+    },
+    {
+      "title": "BSNet: Box-Supervised Simulation-assisted Mean Teacher for 3",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is explicitly described as the official PyTorch implementation of"
+    },
+    {
+      "title": "SinGAN: Learning a Generative Model from a Single Natural Im",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official PyTorch implementation "
+    },
+    {
+      "title": "Performance of Hyperbolic Geometry Models on Top-N Recommend",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions implementing hyperbolic autoencoders for reco"
+    },
+    {
+      "title": "ResUNet-a: a deep learning framework for semantic segmentati",
+      "official": false,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains the source code for the ResUNet-a model, which is explic"
+    },
+    {
+      "title": "Deep learning methods allow fully automated segmentation of ",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains code for training, validating, and using deep learning m"
+    },
+    {
+      "title": "Global Structure Knowledge-Guided Relation Extraction Method",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is explicitly named after the proposed GOSE framework and include"
+    },
+    {
+      "title": "The language of mental health problems in social media",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code for producing language features and binary classifi"
+    },
+    {
+      "title": "MIST: A Simple and Scalable End-To-End 3D Medical Imaging Se",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the Medical Imaging Segmentation Toolkit (MI"
+    },
+    {
+      "title": "ALPHA: AnomaLous Physiological Health Assessment Using Large",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of Large Language Models "
+    },
+    {
+      "title": "HigherHRNet: Scale-Aware Representation Learning for Bottom-",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions HigherHRNet as a bottom-up approach for human"
+    },
+    {
+      "title": "Vitruvion: A Generative Model of Parametric CAD Sketches",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains code and data specifically designed to support the gener"
+    },
+    {
+      "title": "Bidirectional Attentive Memory Networks for Question Answeri",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains code and data accompanying the"
+    },
+    {
+      "title": "Interpretable Concept Bottlenecks to Align Reinforcement Lea",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements the Successive Concept Bottleneck Agents (S"
+    },
+    {
+      "title": "CritiPrefill: A Segment-wise Criticality-based Approach for ",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a clear implementation of the CritiPrefill method, inclu"
+    },
+    {
+      "title": "Automatic Speech Recognition Benchmark for Air-Traffic Commu",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository directly implements the methods described in the paper, focusing "
+    },
+    {
+      "title": "A Blackbox Yield Estimation Workflow with Gaussian Process R",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes an algorithm for yield estimation using a hy"
+    },
+    {
+      "title": "Graph Transformer Networks: Learning Meta-path Graphs to Imp",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it implements both Graph Transformer Networks ("
+    },
+    {
+      "title": "Robust Target Training for Multi-Source Domain Adaptation",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is a Pytorch implementation of BORT2 for mul"
+    },
+    {
+      "title": "Link Prediction Based on Graph Neural Networks",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements a subgraph representation learning framework specifica"
+    },
+    {
+      "title": "Ridiculously Fast Shot Boundary Detection with Fully Convolu",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it implements the method described in the paper"
+    },
+    {
+      "title": "A Unified Framework for Masked and Mask-Free Face Recognitio",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements the Face Feature Rectification Network (FFR"
+    },
+    {
+      "title": "G-Retriever: Retrieval-Augmented Generation for Textual Grap",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly builds upon the G-Retriever method and introduces enha"
+    },
+    {
+      "title": "Hybrid Deep Network for Anomaly Detection",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains source code that implements the Hybrid Deep Network for "
+    },
+    {
+      "title": "PointNet: Deep Learning on Point Sets for 3D Classification ",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it implements the PointNet architecture fo"
+    },
+    {
+      "title": "MiranDa: Mimicking the Learning Processes of Human Doctors t",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of the MiranDa model for "
+    },
+    {
+      "title": "Map3D: Registration Based Multi-Object Tracking on 3D Serial",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official implementation of the M"
+    },
+    {
+      "title": "Targeting SARS-CoV-2 with AI- and HPC-enabled Lead Generatio",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides tools for molecular feature extraction and processing th"
+    },
+    {
+      "title": "Garden optimization problems for benchmarking quantum anneal",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains a Jupyter notebook specifically for generating instances"
+    },
+    {
+      "title": "Boosting Few-Shot Visual Learning with Self-Supervision",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it implements the methods described in the"
+    },
+    {
+      "title": "Adaptive-Halting Policy Network for Early Classification",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official implementation of the A"
+    },
+    {
+      "title": "Immiscible Color Flows in Optimal Transport Networks for Ima",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is explicitly named MODI, which stands for Multicommodity Optimal"
+    },
+    {
+      "title": "Differential Privacy Has Disparate Impact on Model Accuracy",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements Differential Privacy using DP-SGD and discu"
+    },
+    {
+      "title": "A Large-scale Dataset for Hate Speech Detection on Vietnames",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code for deep learning and transformer models specifical"
+    },
+    {
+      "title": "BINet: Multi-perspective Business Process Anomaly Classifica",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the implementation of BINet, t"
+    },
+    {
+      "title": "Efficient Monte Carlo Tree Search via On-the-Fly State-Condi",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains the official implementation of the method described in t"
+    },
+    {
+      "title": "Weighted asymmetric least squares regression with fixed-effe",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements the expectile regression with fixed-effects model as d"
+    },
+    {
+      "title": "NeRF-Supervised Deep Stereo",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is an unofficial implementation of the NeRF-"
+    },
+    {
+      "title": "SegNet: A Deep Convolutional Encoder-Decoder Architecture fo",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements the SegNet architecture as described in the paper, inc"
+    },
+    {
+      "title": "YOLACT++: Better Real-time Instance Segmentation",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions YOLACT++ and describes its implementation for"
+    },
+    {
+      "title": "Overcoming Recency Bias of Normalization Statistics in Conti",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official implementation of the p"
+    },
+    {
+      "title": "Deformable VisTR: Spatio temporal deformable attention for v",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is explicitly described as the official implementation of the Def"
+    },
+    {
+      "title": "Derivative Delay Embedding: Online Modeling of Streaming Tim",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is an improved version of the paper 'Derivat"
+    },
+    {
+      "title": "High Probability Complexity Bounds for Non-Smooth Stochastic",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains Jupyter Notebooks and code that directly relate to exper"
+    },
+    {
+      "title": "Deep Preset: Blending and Retouching Photos with Color Style",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides instructions for cloning and fetching trained models spe"
+    },
+    {
+      "title": "\"Zero-Shot\" Point Cloud Upsampling",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is for the submitted paper on 'Zero-Sho"
+    },
+    {
+      "title": "Semi-supervised Domain Adaptation via Sample-to-Sample Self-",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it implements the method described in the paper"
+    },
+    {
+      "title": "Edge Representation Learning with Hypergraphs",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements the Dual Hypergraph Transformation and the "
+    },
+    {
+      "title": "HierVL: Learning Hierarchical Video-Language Embeddings",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the official code for the Hier"
+    },
+    {
+      "title": "Intent Factored Generation: Unleashing the Diversity in Your",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides instructions for replicating the experiments detailed in"
+    },
+    {
+      "title": "A C-LSTM Neural Network for Text Classification",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of the Word Level C-LSTM m"
+    },
+    {
+      "title": "DeepTraffic: Crowdsourced Hyperparameter Tuning of Deep Rein",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes a deep reinforcement learning competition fo"
+    },
+    {
+      "title": "MGNN: Graph Neural Networks Inspired by Distance Geometry Pr",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains a reference implementation for the paper 'MGNN: Graph Ne"
+    },
+    {
+      "title": "BanditPAM: Almost Linear Time $k$-Medoids Clustering via Mul",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository is named BanditPAM and appears to focus on $k$-medoids clustering"
+    },
+    {
+      "title": "ParetoQ: Scaling Laws in Extremely Low-bit LLM Quantization",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository mentions the release of a new QAT framework called ParetoQ, which"
+    },
+    {
+      "title": "Surface-SOS: Self-Supervised Object Segmentation via Neural ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is an implementation of Surface-SOS, wh"
+    },
+    {
+      "title": "The Rhythms of the Night: increase in online night activity ",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository provides a tool for collecting tweets, which is relevant to the a"
+    },
+    {
+      "title": "MuJoCo MPC for Humanoid Control: Evaluation on HumanoidBench",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions MuJoCo MPC and its application for humanoid c"
+    },
+    {
+      "title": "DTDN: Dual-task De-raining Network",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository includes code for training the dual-task de-raining network as de"
+    },
+    {
+      "title": "Real-Time Drone Detection and Tracking With Visible, Thermal",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a dataset specifically designed for training and evaluat"
+    },
+    {
+      "title": "RDA: An Accelerated Collision Free Motion Planner for Autono",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is explicitly named 'RDA Planner' and includes references to the "
+    },
+    {
+      "title": "Semi-Supervised Learning with Ladder Networks",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains source code for the experiment"
+    },
+    {
+      "title": "Logic Tensor Networks for Semantic Image Interpretation",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements feature generation for bounding boxes and includes a b"
+    },
+    {
+      "title": "node2vec: Scalable Feature Learning for Networks",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a from-the-ground-up implementation of node2vec, directl"
+    },
+    {
+      "title": "PDFA Distillation via String Probability Queries",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository mentions a state-merging framework and a predict module, which co"
+    },
+    {
+      "title": "Linear Causal Bandits: Unknown Graph and Soft Interventions",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains code for the paper titled 'Lin"
+    },
+    {
+      "title": "Solving ARC visual analogies with neural embeddings and vect",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the use of a variational autoencoder (VAE) t"
+    },
+    {
+      "title": "Progressive Confident Masking Attention Network for Audio-Vi",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official PyTorch implementation "
+    },
+    {
+      "title": "StyleTTS 2: Towards Human-Level Text-to-Speech through Style",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of StyleTTS 2, including "
+    },
+    {
+      "title": "Residual Correlation in Graph Neural Network Regression",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements the Correlated Graph Neural Networks (C-GNN"
+    },
+    {
+      "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networ",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the use of Sentence-BERT for semantic embeddi"
+    },
+    {
+      "title": "Real Time Pear Fruit Detection and Counting Using YOLOv4 Mod",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions YOLOv4, which is the model used in the paper "
+    },
+    {
+      "title": "DeepBlindness: Fast Blindness Map Estimation and Blindness T",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains code in PyTorch specifically for the method described in"
+    },
+    {
+      "title": "Convolutional Neural Networks with Alternately Updated Cliqu",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the CliqueNet architecture and its unique pr"
+    },
+    {
+      "title": "An Informative Path Planning Framework for Active Learning i",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the code for the proposed plan"
+    },
+    {
+      "title": "A Novel Use of Discrete Wavelet Transform Features in the Pr",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of discrete wavelet trans"
+    },
+    {
+      "title": "Visualisation and 'diagnostic classifiers' reveal how recurr",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains code specifically designed to analyze how recursive and "
+    },
+    {
+      "title": "Attention Is All You Need",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository includes a TransformerSeq2Seq model, which directly implements th"
+    },
+    {
+      "title": "A Style-Aware Content Loss for Real-time HD Style Transfer",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a clear implementation of the style-aware content loss m"
+    },
+    {
+      "title": "Split-PU: Hardness-aware Training Strategy for Positive-Unla",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements the Split-PU method for Positive-Unlabeled "
+    },
+    {
+      "title": "Sparse maximal update parameterization: A holistic approach ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains a branch specifically for the sparse maximal update para"
+    },
+    {
+      "title": "Secure Safety Filter: Towards Safe Flight Control under Sens",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository includes detailed instructions for launching the secure state rec"
+    },
+    {
+      "title": "Deformable ConvNets v2: More Deformable, Better Results",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides updated deformable convolution operators that align with"
+    },
+    {
+      "title": "Deep High-Resolution Representation Learning for Human Pose ",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is an official PyTorch implementation of the method described in "
+    },
+    {
+      "title": "USCORE: An Effective Approach to Fully Unsupervised Evaluati",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of USCORE, which is the me"
+    },
+    {
+      "title": "FOSTER: Feature Boosting and Compression for Class-Increment",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository focuses on class-incremental learning and mentions reproducing me"
+    },
+    {
+      "title": "Importance of Aligning Training Strategy with Evaluation for",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of the paper 'Importance o"
+    },
+    {
+      "title": "A Novel Benchmark and Dataset for Efficient 3D Gaussian Spla",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions its work on Gaussian compression, which align"
+    },
+    {
+      "title": "Searching for Exoplanets Using Artificial Intelligence",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the use of deep neural networks, including C"
+    },
+    {
+      "title": "An Event-Driven Approach for Studying Gene Block Evolution i",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a script to run a software suite specifically designed t"
+    },
+    {
+      "title": "No Reason for No Supervision: Improved Generalization in Sup",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code for training the t-ReX models on the ImageNet-1K da"
+    },
+    {
+      "title": "Free as in Free Word Order: An Energy Based Model for Word S",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains code for the paper's proposed "
+    },
+    {
+      "title": "Generalized Focal Loss: Learning Qualified and Distributed B",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements a solution based on Generalized Focal Loss and describ"
+    },
+    {
+      "title": "EPSILON: An Efficient Planning System for Automated Vehicles",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a demo implementation of the EPSILON planning system, wh"
+    },
+    {
+      "title": "Aneumo: A Large-Scale Comprehensive Synthetic Dataset of Ane",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a comprehensive multimodal dataset of aneurysm hemodynam"
+    },
+    {
+      "title": "MSC: A Dataset for Macro-Management in StarCraft II",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a dataset and baseline evaluations directly related to t"
+    },
+    {
+      "title": "Transformer Architecture for NetsDB",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements an end-to-end Encoder part of the transformer, which a"
+    },
+    {
+      "title": "Learning Vector-Quantized Item Representation for Transferab",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is a PyTorch implementation of the VQ-R"
+    },
+    {
+      "title": "Video Self-Stitching Graph Network for Temporal Action Local",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it holds the codes for the paper and descr"
+    },
+    {
+      "title": "Dynamical Mechanism of Sampling-based Stochastic Inference u",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code for training neural networks specifically for sampl"
+    },
+    {
+      "title": "Reverse Attention for Salient Object Detection",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is explicitly stated to be for the paper 'Reverse Attention for S"
+    },
+    {
+      "title": "Modeling Tabular data using Conditional GAN",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is named CTGAN and explicitly states it is a collection of Deep L"
+    },
+    {
+      "title": "CondLaneNet: a Top-to-down Lane Detection Framework Based on",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official implementation of the C"
+    },
+    {
+      "title": "Low-effort place recognition with WiFi fingerprints using de",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains implementations for building/floor classification and mu"
+    },
+    {
+      "title": "Topological Embedding of Human Brain Networks with Applicati",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a MATLAB toolbox for statistical inference on persistent"
+    },
+    {
+      "title": "The AiiDA-KKR plugin and its application to high-throughput ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides the AiiDA-KKR plugin specifically designed for high-thro"
+    },
+    {
+      "title": "Forget-free Continual Learning with Winning Subnetworks",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official implementation of the W"
+    },
+    {
+      "title": "Analyzing the Performance of Large Language Models on Code S",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code for running inference and evaluating models on code"
+    },
+    {
+      "title": "Adaptive Network Sparsification with Dependent Variational B",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of 'Adaptive Network Spars"
+    },
+    {
+      "title": "AdaSpeech: Adaptive Text to Speech for Custom Voice",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository mentions using utterance and phoneme level encoders, but it expli"
+    },
+    {
+      "title": "Efficient Temporal Sentence Grounding in Videos with Multi-T",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of an efficient model for "
+    },
+    {
+      "title": "Modeling chemistry during star formation: Water deuteration ",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a three-phase gas-grain astrochemical model that aligns "
+    },
+    {
+      "title": "FCOS: Fully Convolutional One-Stage Object Detection",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly lists FCOS as one of the implemented algorithms and pr"
+    },
+    {
+      "title": "Hybrid Search for Efficient Planning with Completeness Guara",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of the 'Hybrid Search for "
+    },
+    {
+      "title": "Joint Face Detection and Alignment using Multi-task Cascaded",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements the Multi-Task Cascaded Convolutional Neural Network ("
+    },
+    {
+      "title": "APIA: An Architecture for Policy-Aware Intentional Agents",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository contains references to the APIA architecture and its components, "
+    },
+    {
+      "title": "Cross-Sensor Adversarial Domain Adaptation of Landsat-8 and ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the code for the proposed adve"
+    },
+    {
+      "title": "Learning Spatiotemporal Occupancy Grid Maps for Lifelong Nav",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a full implementation of the pipeline described in the p"
+    },
+    {
+      "title": "Experimental Shake Gesture Detection API for Apple Watch",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes a motion detector for the Apple Watch's shak"
+    },
+    {
+      "title": "SPIN: Spacecraft Imagery for Navigation",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides an open-source spacecraft image generation tool, SPIN, w"
+    },
+    {
+      "title": "Aligning Knowledge Concepts to Whole Slide Images for Precis",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the ConcepPath framework and its application"
+    },
+    {
+      "title": "Input Normalized Stochastic Gradient Descent Training of Dee",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of the Input Normalized S"
+    },
+    {
+      "title": "FedCD: Improving Performance in non-IID Federated Learning",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the FedCD method and its application to fede"
+    },
+    {
+      "title": "Letter-Based Speech Recognition with Gated ConvNets",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions implementing the architecture proposed in the"
+    },
+    {
+      "title": "DDD20 End-to-End Event Camera Driving Dataset: Fusing Frames",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code specifically for the methods described in the paper"
+    },
+    {
+      "title": "Automatic selection of clustering algorithms using supervise",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes MARCO-GE as a meta-learning approach for clu"
+    },
+    {
+      "title": "Revisiting, Benchmarking and Understanding Unsupervised Grap",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements a Python library for Graph Domain Adaptation, which al"
+    },
+    {
+      "title": "Object-driven Text-to-Image Synthesis via Adversarial Traini",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is an official PyTorch implementation specifically for reproducin"
+    },
+    {
+      "title": "PBench: Workload Synthesizer with Real Statistics for Cloud ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the code for the paper and des"
+    },
+    {
+      "title": "K-Adapter: Infusing Knowledge into Pre-Trained Models with A",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official implementation of the K"
+    },
+    {
+      "title": "OmniGlue: Generalizable Feature Matching with Foundation Mod",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is the official code release for the paper '"
+    },
+    {
+      "title": "Cascade Cost Volume for High-Resolution Multi-View Stereo an",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the official source code for t"
+    },
+    {
+      "title": "Brain-like Flexible Visual Inference by Harnessing Feedback ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is the official implementation of the paper "
+    },
+    {
+      "title": "Domain-Specific Denoising Diffusion Probabilistic Models for",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements the Domain Specific Denoising Diffusion Pro"
+    },
+    {
+      "title": "LLM-PQ: Serving LLM on Heterogeneous Clusters with Phase-Awa",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official implementation of LLM-P"
+    },
+    {
+      "title": "Learning K-way D-dimensional Discrete Codes for Compact Embe",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains code for the paper and describ"
+    },
+    {
+      "title": "PPF-FoldNet: Unsupervised Learning of Rotation Invariant 3D ",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides an unofficial implementation of PPF-FoldNet in PyTorch, "
+    },
+    {
+      "title": "SPLICE: A Synthetic Paid Loss and Incurred Cost Experience S",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements the SPLICE simulator as described in the paper, provid"
+    },
+    {
+      "title": "Character-level Convolutional Networks for Text Classificati",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is an implementation of the character-level "
+    },
+    {
+      "title": "Refining Diffusion Planner for Reliable Behavior Synthesis b",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides source codes and instructions for implementing the propo"
+    },
+    {
+      "title": "PiCANet: Pixel-wise Contextual Attention Learning for Accura",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides source code and detailed instructions for implementing t"
+    },
+    {
+      "title": "FitNets: Hints for Thin Deep Nets",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions offering various state-of-the-art knowledge d"
+    },
+    {
+      "title": "Escape with Your Self: A Solution to the Avoidance Problem w",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides Coq mechanizations of various calculi related to reachab"
+    },
+    {
+      "title": "Energy-Based Models for Continual Learning",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it aims at classification continual learning pr"
+    },
+    {
+      "title": "GAP: A Graph-aware Language Model Framework for Knowledge Gr",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it implements a framework for KG-to-text genera"
+    },
+    {
+      "title": "CAPRI-FAIR: Integration of Multi-sided Fairness in Contextua",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes a framework for POI recommendation that inco"
+    },
+    {
+      "title": "Controlled abstention neural networks for identifying skillf",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of the abstention loss for"
+    },
+    {
+      "title": "Hallucinated but Factual! Inspecting the Factuality of Hallu",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code for training a KNN classifier as described in the p"
+    },
+    {
+      "title": "Restore Anything Model via Efficient Degradation Adaptation",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes a unified model for all-in-one image restora"
+    },
+    {
+      "title": "PCN: Point Completion Network",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements the Point Completion Network (PCN) as descr"
+    },
+    {
+      "title": "ReconNet: Non-Iterative Reconstruction of Images from Compre",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is an implementation of the ReconNet me"
+    },
+    {
+      "title": "Domain-Generalizable Multiple-Domain Clustering",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a detailed implementation of the proposed two-stage trai"
+    },
+    {
+      "title": "Aggregated Residual Transformations for Deep Neural Networks",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements ResNeXt50, which is directly based on the architecture"
+    },
+    {
+      "title": "Relation Networks for Object Detection",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is an official implementation of the method described in the pape"
+    },
+    {
+      "title": "LightX3ECG: A Lightweight and eXplainable Deep Learning Syst",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the official source code for t"
+    },
+    {
+      "title": "MuS2: A Real-World Benchmark for Sentinel-2 Multi-Image Supe",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository provides a dataset and evaluation code related to super-resolutio"
+    },
+    {
+      "title": "Drawing Early-Bird Tickets: Towards More Efficient Training ",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is a PyTorch implementation of the pape"
+    },
+    {
+      "title": "LiDAR Snowfall Simulation for Robust 3D Object Detection",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a simulation method for LiDAR snowfall effects, directly"
+    },
+    {
+      "title": "Holistically-Nested Edge Detection",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of the holistically-neste"
+    },
+    {
+      "title": "Colorful Image Colorization",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains code for both training a colorization network and a test"
+    },
+    {
+      "title": "Towards 3D Human Pose Estimation in the Wild: a Weakly-super",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is an extension of the PyTorch implementatio"
+    },
+    {
+      "title": "A probability theoretic approach to drifting data in continu",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains implementations of the methods proposed in the paper, in"
+    },
+    {
+      "title": "The Design and Implementation of a Real Time Visual Search S",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository describes a distributed vector database designed for efficient si"
+    },
+    {
+      "title": "From Planes to Corners: Multi-Purpose Primitive Detection in",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code that demonstrates the method for detecting orthogon"
+    },
+    {
+      "title": "Energetic closure of the spatially resolved global food syst",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a codebase specifically for the paper, including setup i"
+    },
+    {
+      "title": "MILE: A Multi-Level Framework for Scalable Graph Embedding",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the MILE framework and its functionality to "
+    },
+    {
+      "title": "Downstream Transformer Generation of Question-Answer Pairs w",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements T5 fine-tuning on the SQuAD dataset and includes scrip"
+    },
+    {
+      "title": "SpectralNet: Spectral Clustering using Deep Neural Networks",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it performs spectral clustering using deep"
+    },
+    {
+      "title": "Model and Data Agreement for Learning with Noisy Labels",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is explicitly stated to be the official implementation of the pap"
+    },
+    {
+      "title": "Understanding normalization in contrastive representation le",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the implementation for the pro"
+    },
+    {
+      "title": "Natural Reference Frames within Video Analysis",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains data and analysis codes used t"
+    },
+    {
+      "title": "Towards Exact Computation of Inductive Bias",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly contains code to compute inductive bias for both kerne"
+    },
+    {
+      "title": "Stacked Cross Attention for Image-Text Matching",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is explicitly stated to be the source code for the paper 'Stacked"
+    },
+    {
+      "title": "A joint separation-classification model for sound event dete",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes a neural network-based approach for audio so"
+    },
+    {
+      "title": "Intra-video Positive Pairs in Self-Supervised Learning for U",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions 'Intra-Video Positive Pairs' in its title, in"
+    },
+    {
+      "title": "QaNER: Prompting Question Answering Models for Few-shot Name",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is an unofficial implementation of the QaNER method described in "
+    },
+    {
+      "title": "AixBench: A Code Generation Benchmark Dataset",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a benchmark dataset and evaluation criteria that directl"
+    },
+    {
+      "title": "TACCL: Guiding Collective Algorithm Synthesis using Communic",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes TACCL as a tool for generating algorithms fo"
+    },
+    {
+      "title": "Unsupervised Deep Learning for Structured Shape Matching",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements an unsupervised approach to Deep Functional"
+    },
+    {
+      "title": "MedCPT: Contrastive Pre-trained Transformers with Large-scal",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code for training both the MedCPT retriever and re-ranke"
+    },
+    {
+      "title": "PrObeD: Proactive Object Detection Wrapper",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official implementation of the P"
+    },
+    {
+      "title": "Label-Efficient Self-Supervised Speaker Verification With In",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it provides implementations of self-supervised "
+    },
+    {
+      "title": "Social NCE: Contrastive Learning of Socially-aware Motion Re",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements the Social-NCE method applied to the Social"
+    },
+    {
+      "title": "The dynamics and outcome of star formation with jets, radiat",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains data and documentation related to the STARFORGE framewor"
+    },
+    {
+      "title": "Multi-View Picking: Next-best-view Reaching for Improved Gra",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the implementation of the Mult"
+    },
+    {
+      "title": "Towards gaze-independent c-VEP BCI: A pilot study",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository PyntBCI is specifically designed for brain-computer interfacing u"
+    },
+    {
+      "title": "CEEBERT: Cross-Domain Inference in Early Exit BERT",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official implementation of CeeBE"
+    },
+    {
+      "title": "MolGAN: An implicit generative model for small molecular gra",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a TensorFlow 2.0+ implementation of MolGAN, which is exp"
+    },
+    {
+      "title": "Street-View Image Generation from a Bird's-Eye View Layout",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is explicitly stated to be the official code for BEVGen, which im"
+    },
+    {
+      "title": "Graph Neural Networks Exponentially Lose Expressive Power fo",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains specific code for experiments that directly relate to th"
+    },
+    {
+      "title": "ChemDFM: A Large Language Foundation Model for Chemistry",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes ChemDFM as a dialogue foundation model for c"
+    },
+    {
+      "title": "SAFRAN: An interpretable, rule-based link prediction method ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes SAFRAN as a framework for fast inference and"
+    },
+    {
+      "title": "PaLM-E: An Embodied Multimodal Language Model",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the open source implementation of th"
+    },
+    {
+      "title": "MVTec AD -- A Comprehensive Real-World Dataset for Unsupervi",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements a workflow for unsupervised anomaly detection using th"
+    },
+    {
+      "title": "The Larger They Are, the Harder They Fail: Language Models d",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code for data generation and evaluation specifically for"
+    },
+    {
+      "title": "Unveiling Deep Shadows: A Survey and Benchmark on Image and ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains results and trained models for deep-learning methods spe"
+    },
+    {
+      "title": "Multi-level Attention Model for Weakly Supervised Audio Clas",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the use of a multi-attention classifier and i"
+    },
+    {
+      "title": "Where are the Masks: Instance Segmentation with Image-level ",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides clear instructions for training and evaluating a Mask R-"
+    },
+    {
+      "title": "Cluster-guided Asymmetric Contrastive Learning for Unsupervi",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it implements the Cluster-guided Asymmetri"
+    },
+    {
+      "title": "FeynCalc 9",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository provides an add-on for FeynCalc, which is mentioned in the paper,"
+    },
+    {
+      "title": "Masked Diffusion Models Are Fast Distribution Learners",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of the masked pre-trainin"
+    },
+    {
+      "title": "Generative Data Augmentation for Commonsense Reasoning",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the code used for the paper 'G"
+    },
+    {
+      "title": "CoupleNet: Coupling Global Structure with Local Parts for Ob",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it implements CoupleNet and describes relevant "
+    },
+    {
+      "title": "The matter density PDF for modified gravity and dark energy ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a Python package specifically designed to generate matte"
+    },
+    {
+      "title": "Enhancing Sequence-to-Sequence Neural Lemmatization with Ext",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository mentions a lemmatizer based on StanfordNLP, but does not provide "
+    },
+    {
+      "title": "Simple BERT Models for Relation Extraction and Semantic Role",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains BERT-based models for semantic"
+    },
+    {
+      "title": "MERTech: Instrument Playing Technique Detection Using Self-S",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides scripts for training and testing, which aligns with the "
+    },
+    {
+      "title": "Assessment of Deep Learning Segmentation for Real-Time Free-",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it reproduces the experiments of the paper"
+    },
+    {
+      "title": "Learning to Adversarially Blur Visual Object Tracking",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the adversarial blur attack (ABA) and provid"
+    },
+    {
+      "title": "HoroPCA: Hyperbolic Dimensionality Reduction via Horospheric",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official PyTorch implementation "
+    },
+    {
+      "title": "ConsInstancy: Learning Instance Representations for Semi-Sup",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the source code for the semi-s"
+    },
+    {
+      "title": "FairSync: Ensuring Amortized Group Exposure in Distributed R",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides specific instructions for training a retrieval model and"
+    },
+    {
+      "title": "Reliable Fidelity and Diversity Metrics for Generative Model",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is explicitly titled after the paper and discusses the proposed d"
+    },
+    {
+      "title": "Synchronous Bidirectional Neural Machine Translation",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official codebase for the paper "
+    },
+    {
+      "title": "ODDN: Addressing Unpaired Data Challenges in Open-World Deep",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of the open-world deepfake"
+    },
+    {
+      "title": "End-to-End Label Uncertainty Modeling in Speech Emotion Reco",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of the end-to-end label un"
+    },
+    {
+      "title": "Improving Query Representations for Dense Retrieval with Pse",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it reproduces results reported in the pape"
+    },
+    {
+      "title": "Enhancing Feature Diversity Boosts Channel-Adaptive Vision T",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is a Pytorch implementation for Diverse Chan"
+    },
+    {
+      "title": "HunyuanVideo: A Systematic Framework For Large Video Generat",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is explicitly named after the paper and provides a comprehensive "
+    },
+    {
+      "title": "Potential Gap: Using Reactive Policies to Guarantee Safe Nav",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the integration of gap-based local navigatio"
+    },
+    {
+      "title": "LLMs' morphological analyses of complex FST-generated Finnis",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The README mentions experiments related to the paper's topic, but does not provi"
+    },
+    {
+      "title": "Speaking the Same Language: Matching Machine to Human Captio",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository includes a specific script for training the adversarial caption g"
+    },
+    {
+      "title": "Adaptive Topological Feature via Persistent Homology: Filtra",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes an experiment using a protein dataset that a"
+    },
+    {
+      "title": "Robust Burned Area Delineation through Multitask Learning",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code and dataset specifically for the proposed multitask"
+    },
+    {
+      "title": "Environmental Sound Classification on the Edge: A Pipeline f",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions ACDNet and provides a deployment pipeline for"
+    },
+    {
+      "title": "YOLO9000: Better, Faster, Stronger",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements YOLOv2 and YOLOv3, which are directly related to the Y"
+    },
+    {
+      "title": "Robust Outlier Detection Method Based on Local Entropy and G",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the official implementation of"
+    },
+    {
+      "title": "Tree Prompting: Efficient Task Adaptation without Fine-Tunin",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a TreePromptClassifier that aligns with the Tree Prompti"
+    },
+    {
+      "title": "Permutationally Invariant Networks for Enhanced Sampling (PI",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides an implementation of the PINES method for enhanced sampl"
+    },
+    {
+      "title": "On Embeddings for Numerical Features in Tabular Deep Learnin",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions training a Tabular Deep Learning model and in"
+    },
+    {
+      "title": "Multi-News: a Large-Scale Multi-Document Summarization Datas",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides data and code specifically for the Multi-News paper, inc"
+    },
+    {
+      "title": "NTK-Guided Few-Shot Class Incremental Learning",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it provides the official implementation fo"
+    },
+    {
+      "title": "Improving AMR Parsing with Sequence-to-Sequence Pre-training",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code and a pre-trained model specifically for AMR parsin"
+    },
+    {
+      "title": "Reservoir computing approaches for representation and classi",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly focuses on time series classification and clustering u"
+    },
+    {
+      "title": "ChemCrow: Augmenting large-language models with chemistry to",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides an open-source implementation of ChemCrow, which integra"
+    },
+    {
+      "title": "Instantaneous PSD Estimation for Speech Enhancement based on",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it implements instantaneous PSD estimation"
+    },
+    {
+      "title": "BraTS orchestrator : Democratizing and Disseminating state-o",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides an open-source Python package that offers access to stat"
+    },
+    {
+      "title": "Community-based Outlier Detection for Edge-attributed Graphs",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements the Holistic Community Outlier Detection Al"
+    },
+    {
+      "title": "Single Shot Scene Text Retrieval",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it implements the code from the ECCV 2018 paper"
+    },
+    {
+      "title": "Boosting Soft Actor-Critic: Emphasizing Recent Experience wi",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of Emphasizing Recent Expe"
+    },
+    {
+      "title": "Enhancing the Protein Tertiary Structure Prediction by Multi",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides detailed instructions for pretraining and inference of t"
+    },
+    {
+      "title": "PAD: Phase-Amplitude Decoupling Fusion for Multi-Modal Land ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official implementation of the p"
+    },
+    {
+      "title": "A Missing Data Imputation GAN for Character Sprite Generatio",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official source code for the pap"
+    },
+    {
+      "title": "Neural Relational Inference with Fast Modular Meta-learning",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of the method described in"
+    },
+    {
+      "title": "ns3-gym: Extending OpenAI Gym for Networking Research",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a framework that integrates OpenAI Gym with ns-3, direct"
+    },
+    {
+      "title": "COCO-Stuff: Thing and Stuff Classes in Context",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository focuses on semantic segmentation of stuff classes, which aligns d"
+    },
+    {
+      "title": "The integration of angular velocity",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository focuses on quaternions, which are central to the methods describe"
+    },
+    {
+      "title": "TRIDENT: Tri-modal Real-time Intrusion Detection Engine for ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements the tri-modal detection approach described "
+    },
+    {
+      "title": "Multi-layer Representation Fusion for Neural Machine Transla",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository discusses a method for fusing multi-layer representations in neur"
+    },
+    {
+      "title": "Lightplane: Highly-Scalable Components for Neural 3D Fields",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements a highly memory-efficient differentiable radiance fiel"
+    },
+    {
+      "title": "Learning discrete Lagrangians for variational PDEs from data",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains scripts and notebooks specifically designed to create tr"
+    },
+    {
+      "title": "Simple Contrastive Representation Learning for Time Series F",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is a PyTorch implementation of the pape"
+    },
+    {
+      "title": "CodeGeeX: A Pre-Trained Model for Code Generation with Multi",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions CodeGeeX as a multilingual code generation mo"
+    },
+    {
+      "title": "A large annotated medical image dataset for the development ",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements a U-Net 3D image segmentation model specifically using"
+    },
+    {
+      "title": "Zero-Shot Learning -- A Comprehensive Evaluation of the Good",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains implementations of classical zero-shot algorithms and fo"
+    },
+    {
+      "title": "ConceptLab: Creative Concept Generation using VLM-Guided Dif",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of creative text-to-image"
+    },
+    {
+      "title": "MARS-Gym: A Gym framework to model, train, and evaluate Reco",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides an open-source framework specifically designed for model"
+    },
+    {
+      "title": "EfficientDet: Scalable and Efficient Object Detection",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository uses EfficientDet as a backbone for object detection but focuses "
+    },
+    {
+      "title": "GAMA: A Large Audio-Language Model with Advanced Audio Under",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official implementation of the G"
+    },
+    {
+      "title": "When Being Unseen from mBERT is just the Beginning: Handling",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides scripts for transliteration and fine-tuning mBERT, which"
+    },
+    {
+      "title": "Automated Performance Testing Based on Active Deep Learning",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes ACTA as a tool for generating performance te"
+    },
+    {
+      "title": "Set You Straight: Auto-Steering Denoising Trajectories to Si",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official implementation of the m"
+    },
+    {
+      "title": "Sound Event Localization and Detection of Overlapping Source",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly cites the paper and discusses the SELDnet method, whic"
+    },
+    {
+      "title": "Mapping Supervised Bilingual Word Embeddings from English to",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it maps bilingual word embeddings from Eng"
+    },
+    {
+      "title": "Modality Distillation with Multiple Stream Networks for Acti",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code for training models using depth and RGB modalities,"
+    },
+    {
+      "title": "Framing U-Net via Deep Convolutional Framelets: Application ",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository includes specific implementations for Framing U-Net and related t"
+    },
+    {
+      "title": "Richer Convolutional Features for Edge Detection",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a PyTorch implementation of the RCF method described in "
+    },
+    {
+      "title": "Tracklet-Switch Adversarial Attack against Pedestrian Multi-",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of the Tracklet-Switch (Tr"
+    },
+    {
+      "title": "LIONs: An Empirically Optimized Approach to Align Language M",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the three-stage training pipeline and techni"
+    },
+    {
+      "title": "FunASR: A Fundamental End-to-End Speech Recognition Toolkit",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements the FunASR toolkit and its flagship model Paraformer, "
+    },
+    {
+      "title": "Tracking Fringe and Coordinated Activity on Twitter Leading ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements an embedding-based algorithm and Tagset Analysis to ma"
+    },
+    {
+      "title": "The First Few Tokens Are All You Need: An Efficient and Effe",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of Unsupervised Prefix Fi"
+    },
+    {
+      "title": "TAPER: Time-Aware Patient EHR Representation",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains code specifically for the TAPER model, which is designed"
+    },
+    {
+      "title": "Beyond Correlation: A Path-Invariant Measure for Seismogram ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains code for training a similarity model based on the novel "
+    },
+    {
+      "title": "Contrastive Self-Supervised Learning Based Approach for Pati",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides source code and pretrained models specifically for the c"
+    },
+    {
+      "title": "Audio-based AI classifiers show no evidence of improved COVI",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code required to replicate the results of the paper, spe"
+    },
+    {
+      "title": "Decoupling Representation and Classifier for Long-Tailed Rec",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository mentions training models with a method called Decouple, which ali"
+    },
+    {
+      "title": "Multiscale Quantile Regression with Local Error Control",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains an R package named 'muscle' specifically designed for Mu"
+    },
+    {
+      "title": "Towards Effective Discrimination Testing for Generative AI",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides detailed implementations of experiments described in the"
+    },
+    {
+      "title": "Toward Aligning Human and Robot Actions via Multi-Modal Demo",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the official code for the pape"
+    },
+    {
+      "title": "Dual Adaptive Representation Alignment for Cross-domain Few-",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is a PyTorch implementation of the meth"
+    },
+    {
+      "title": "Wide Residual Networks",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository mentions Wide Residual Networks (WRNs) and provides results relat"
+    },
+    {
+      "title": "SimCSE: Simple Contrastive Learning of Sentence Embeddings",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements the SimCSE method for sentence embeddings, "
+    },
+    {
+      "title": "The completed SDSS-IV extended Baryon Oscillation Spectrosco",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a Python wrapper for the Effective Zel'dovich approximat"
+    },
+    {
+      "title": "SRFlow: Learning the Super-Resolution Space with Normalizing",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository discusses a challenge related to super-resolution and mentions th"
+    },
+    {
+      "title": "Multi-Anchor Active Domain Adaptation for Semantic Segmentat",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is for the paper 'Multi-Anchor Active Domain"
+    },
+    {
+      "title": "Data Distributional Properties Drive Emergent In-Context Lea",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository includes code for training and evaluating a transformer on sequen"
+    },
+    {
+      "title": "Supercomputing tensor networks for U(1) symmetric quantum ma",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements a GPU-based simulation method that explicitly exploits"
+    },
+    {
+      "title": "Neural Architecture Search for Compressed Sensing Magnetic R",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is for the method described in the paper, in"
+    },
+    {
+      "title": "A Data-Driven Aggressive Autonomous Racing Framework Utilizi",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements the EVO-MPCC framework, which is directly related to t"
+    },
+    {
+      "title": "SIDA: Social Media Image Deepfake Detection, Localization an",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a dataset (SID-Set) and models specifically designed for"
+    },
+    {
+      "title": "Dodrio: Exploring Transformer Models with Interactive Visual",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides an interactive visualization tool specifically designed "
+    },
+    {
+      "title": "Visual Grounding Methods for VQA are Working for the Wrong R",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly discusses the negative case analysis of visual groundi"
+    },
+    {
+      "title": "Three approaches to facilitate DNN generalization to objects",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains code and datasets specifically mentioned in the paper, i"
+    },
+    {
+      "title": "Actor-Critic Instance Segmentation",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is the official implementation of the actor-"
+    },
+    {
+      "title": "Bending the Future: Autoregressive Modeling of Temporal Know",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of HyperVC, which utilize"
+    },
+    {
+      "title": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for ",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is explicitly described as a toolbox for X-ray 3D reconstruction,"
+    },
+    {
+      "title": "ChamNet: Towards Efficient Network Design through Platform-A",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions providing code and models for ChamNet, which "
+    },
+    {
+      "title": "RSANet: Recurrent Slice-wise Attention Network for Multiple ",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it implements the RSANet method described "
+    },
+    {
+      "title": "RobustTP: End-to-End Trajectory Prediction for Heterogeneous",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the code base for the paper 'RobustT"
+    },
+    {
+      "title": "A new Linear Time Bi-level $\\ell_{1,\\infty}$ projection ; Ap",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "MEDIUM",
+      "llm_reason": "The repository mentions the application of the proposed bi-level $\text{l}_{1,\tex"
+    },
+    {
+      "title": "ContactOpt: Optimizing Contact to Improve Grasps",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a detailed overview of the ContactOpt method, including "
+    },
+    {
+      "title": "Hierarchical Graph Representation Learning with Differentiab",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is for the implementation of the method"
+    },
+    {
+      "title": "PCT: Point cloud transformer",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is a TensorFlow implementation of the PCT me"
+    },
+    {
+      "title": "Sparse eigenbasis approximation: multiple feature extraction",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a function specifically designed to find a sparse basis "
+    },
+    {
+      "title": "Benchmarking and Understanding Compositional Relational Reas",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains scripts for generating GAR datasets and training models,"
+    },
+    {
+      "title": "Efficient Compression of Overparameterized Deep Models throu",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements compressed deep linear networks, which alig"
+    },
+    {
+      "title": "One Law, Many Languages: Benchmarking Multilingual Legal Rea",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides detailed instructions for implementing the Court View Ge"
+    },
+    {
+      "title": "Knowledge-aware Graph Neural Networks with Label Smoothness ",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements KGNN-LS, which is the method described in t"
+    },
+    {
+      "title": "High-Resolution Image Inpainting with Iterative Confidence F",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements a cascaded modulation GAN for image inpainting, which "
+    },
+    {
+      "title": "GloDyNE: Global Topology Preserving Dynamic Network Embeddin",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it proposes an efficient dynamic network e"
+    },
+    {
+      "title": "Elevating Skeleton-Based Action Recognition with Efficient M",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the implementation of the paper and "
+    },
+    {
+      "title": "Physical Attack on Monocular Depth Estimation with Optimal A",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is the official implementation of the p"
+    },
+    {
+      "title": "Descriptor-based Foundation Models for Molecular Property Pr",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code for the CheMeleon model, which is explicitly descri"
+    },
+    {
+      "title": "BanditSum: Extractive Summarization as a Contextual Bandit",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains code and data specifically for the BanditSum method desc"
+    },
+    {
+      "title": "Fast unfolding of communities in large networks",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements an optimized parallel version of the Louvain algorithm"
+    },
+    {
+      "title": "AV-CrossNet: an Audiovisual Complex Spectral Mapping Network",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is an official PyTorch implementation of the AV-CrossNet method d"
+    },
+    {
+      "title": "Multi-Object Representation Learning with Iterative Variatio",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it implements the IODINE model described i"
+    },
+    {
+      "title": "Panther: Fast Top-k Similarity Search in Large Networks",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of a sampling method for "
+    },
+    {
+      "title": "Closing the Curious Case of Neural Text Degeneration",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a clear implementation of the BAT sampling method descri"
+    },
+    {
+      "title": "Aerial Map-Based Navigation Using Semantic Segmentation and ",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the simulation of a pattern matching algorith"
+    },
+    {
+      "title": "DyRRen: A Dynamic Retriever-Reranker-Generator Model for Num",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides detailed instructions for training and inference of the "
+    },
+    {
+      "title": "Language-Grounded Dynamic Scene Graphs for Interactive Objec",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides source code specifically for the method described in the"
+    },
+    {
+      "title": "GroupCDL: Interpretable Denoising and Compressed Sensing MRI",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the paper 'GroupCDL' and provides code relate"
+    },
+    {
+      "title": "Winner-takes-all learners are geometry-aware conditional den",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it contains code for the methods described in t"
+    },
+    {
+      "title": "Closing the Generalization Gap of Adaptive Gradient Methods ",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of the 'partial' parameter"
+    },
+    {
+      "title": "Sample Selection via Contrastive Fragmentation for Noisy Lab",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains an official implementation of the ConFrag method as desc"
+    },
+    {
+      "title": "Neural AMR: Sequence-to-Sequence Models for Parsing and Gene",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the code for the paper on AMR-"
+    },
+    {
+      "title": "360SD-Net: 360\u00b0 Stereo Depth Estimation with Learnable Cost ",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides an implementation of the method described in the paper, "
+    },
+    {
+      "title": "Simple multi-dataset detection",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes training a unified object detector on multip"
+    },
+    {
+      "title": "OpenBox: A Generalized Black-box Optimization Service",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements OpenBox, which is explicitly described in the paper as"
+    },
+    {
+      "title": "Probabilistic Decomposed Linear Dynamical Systems for Robust",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it implements probabilistic decomposed lin"
+    },
+    {
+      "title": "Distance-IoU Loss: Faster and Better Learning for Bounding B",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is based on YOLACT++ and includes the D"
+    },
+    {
+      "title": "A Sensitivity Analysis of (and Practitioners' Guide to) Conv",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code for implementing convolutional neural networks spec"
+    },
+    {
+      "title": "HOME: Heatmap Output for future Motion Estimation",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository includes a configuration specifically for HOME and mentions achie"
+    },
+    {
+      "title": "Dual Learning for Semi-Supervised Natural Language Understan",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains source code and data specifically for the methods descri"
+    },
+    {
+      "title": "CosmiXs: Improved spectra for dark matter indirect detection",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides the source spectra for cosmic messengers relevant for da"
+    },
+    {
+      "title": "Graph Anomaly Detection with Unsupervised GNNs",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides source code for GLAM, which is explicitly described in t"
+    },
+    {
+      "title": "AI Expands Scientists' Impact but Contracts Science's Focus",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides code and datasets directly related to the analysis of AI"
+    },
+    {
+      "title": "Speaker Anonymization with Phonetic Intermediate Representat",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of the speaker anonymizati"
+    },
+    {
+      "title": "Robot Navigation with Map-Based Deep Reinforcement Learning",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements a modified version of the deep reinforcement learning "
+    },
+    {
+      "title": "Spatiotemporal Emotion Recognition using Deep CNN Based on E",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains multiple CNN architectures specifically designed for EEG"
+    },
+    {
+      "title": "Computing Multiple Image Reconstructions with a Single Hyper",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the HyperRecon method for producing multiple"
+    },
+    {
+      "title": "Chain-of-Thought Reasoning Without Prompting",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly implements CoT-Decoding as described in the paper, dem"
+    },
+    {
+      "title": "Reconstructive Visual Instruction Tuning",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions 'Reconstructive Visual Instruction Tuning' an"
+    },
+    {
+      "title": "HUSE: Hierarchical Universal Semantic Embeddings",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states its purpose as implementing the HUSE method for"
+    },
+    {
+      "title": "The CLRS-Text Algorithmic Reasoning Language Benchmark",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a benchmark for algorithmic reasoning that aligns with t"
+    },
+    {
+      "title": "Towards AI-Complete Question Answering: A Set of Prerequisit",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements End to End Memory Networks specifically for a Question"
+    },
+    {
+      "title": "CDGP: Automatic Cloze Distractor Generation based on Pre-tra",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains code for distractor generation and evaluation, directly "
+    },
+    {
+      "title": "Singularity-free Guiding Vector Field for Robot Navigation",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains simulation and plotting files specifically for path foll"
+    },
+    {
+      "title": "FSSD: Feature Fusion Single Shot Multibox Detector",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions FSSD as part of its Pytorch SSD series and pr"
+    },
+    {
+      "title": "Efficient Ladder-style DenseNets for Semantic Segmentation o",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it reproduces the results from the paper a"
+    },
+    {
+      "title": "Semi-Supervised Panoptic Narrative Grounding",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is the official implementation of the SSPNG "
+    },
+    {
+      "title": "Instant-Teaching: An End-to-End Semi-Supervised Object Detec",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions an end-to-end semi-supervised object detectio"
+    },
+    {
+      "title": "EMORL: Ensemble Multi-Objective Reinforcement Learning for E",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains specific files for ensembled training, hidden states agg"
+    },
+    {
+      "title": "Blind Adversarial Pruning: Balance Accuracy, Efficiency and ",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the source code for Blind Adve"
+    },
+    {
+      "title": "FaceNet: A Unified Embedding for Face Recognition and Cluste",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of FaceNet, including the"
+    },
+    {
+      "title": "Clustering of Big Data with Mixed Features",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements the Component-wise Peak-Finding algorithm, which align"
+    },
+    {
+      "title": "NeRP: Implicit Neural Representation Learning with Prior Emb",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides PyTorch code specifically for the NeRP methodology descr"
+    },
+    {
+      "title": "Learning Dynamic Routing for Semantic Segmentation",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it provides an implementation for the meth"
+    },
+    {
+      "title": "A Multi-Objective Anytime Rule Mining System to Ease Iterati",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes itself as a multi-objective rule mining syst"
+    },
+    {
+      "title": "FaceNet: A Unified Embedding for Face Recognition and Cluste",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of FaceNet, including the"
+    },
+    {
+      "title": "StateSpaceModels.jl: a Julia Package for Time-Series Analysi",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements a Julia package specifically designed for modeling, fo"
+    },
+    {
+      "title": "Decision-centric fairness: Evaluation and optimization for r",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the implementation of a decision-centric fai"
+    },
+    {
+      "title": "SPATL: Salient Parameter Aggregation and Transfer Learning f",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the SPATL method, including salient paramete"
+    },
+    {
+      "title": "Representation Tradeoffs for Hyperbolic Embeddings",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it provides hyperbolic embedding implement"
+    },
+    {
+      "title": "A Note on Connecting Barlow Twins with Negative-Sample-Free ",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository includes an implementation of Barlow Twins, which is directly rel"
+    },
+    {
+      "title": "Bayesian Batch Active Learning as Sparse Subset Approximatio",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it contains the code to reproduce the expe"
+    },
+    {
+      "title": "Temporally smooth online action detection using cycle-consis",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes the Future Anticipation and Temporally Smoot"
+    },
+    {
+      "title": "Nested Sampling with Normalising Flows for Gravitational-Wav",
+      "official": true,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository implements the 'nessai' sampler, which is explicitly designed for"
+    },
+    {
+      "title": "P$^2$-ViT: Power-of-Two Post-Training Quantization and Accel",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository contains the official implementation of the P$^2$-ViT framework a"
+    },
+    {
+      "title": "Few-Shot Learning with Graph Neural Networks",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is a PyTorch implementation of few-shot lear"
+    },
+    {
+      "title": "Spectral Regularization: an Inductive Bias for Sequence Mode",
+      "official": true,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it contains code for the paper 'Spectral Regula"
+    },
+    {
+      "title": "Augmented CycleGAN: Learning Many-to-Many Mappings from Unpa",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly mentions the implementation of Augmented CycleGAN and "
+    },
+    {
+      "title": "OpenDelta: A Plug-and-play Library for Parameter-efficient A",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly describes itself as a toolkit for parameter-efficient "
+    },
+    {
+      "title": "ViPNAS: Efficient Video Pose Estimation via Neural Architect",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository is the official implementation of the ViPNAS method as described "
+    },
+    {
+      "title": "Reasoning in complex environments with the SelectScript decl",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides the SelectScript language, which is explicitly designed "
+    },
+    {
+      "title": "ORB-SLAM3: An Accurate Open-Source Library for Visual, Visua",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it implements ORB-SLAM3, which is the meth"
+    },
+    {
+      "title": "PRO-V: An Efficient Program Generation Multi-Agent System fo",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a comprehensive framework for automated RTL code generat"
+    },
+    {
+      "title": "HADES: Homologous Automated Document Exploration and Summari",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a Python package that implements the multi-step pipeline"
+    },
+    {
+      "title": "Unsupervised Multiple Choices Question Answering: Start Lear",
+      "official": false,
+      "pre_llm_score": 0.4,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it is the original implementation of the paper "
+    },
+    {
+      "title": "Investigating Self-Attention Network for Chinese Word Segmen",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states it investigates self-attention networks for Chi"
+    },
+    {
+      "title": "pyBART: Evidence-based Syntactic Transformations for IE",
+      "official": false,
+      "pre_llm_score": 0.35,
+      "pre_level": "WEAK",
+      "post_level": "MEDIUM",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository provides a Python library specifically designed to convert Univer"
+    },
+    {
+      "title": "Cross-domain Detection via Graph-induced Prototype Alignment",
+      "official": true,
+      "pre_llm_score": 0.65,
+      "pre_level": "MEDIUM",
+      "post_level": "STRONG",
+      "llm_level": "STRONG",
+      "llm_reason": "The repository explicitly states that it is an implementation of the method desc"
+    }
+  ],
+  "contradiction_count": 95
+}
